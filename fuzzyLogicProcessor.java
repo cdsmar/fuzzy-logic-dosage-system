@@ -13,9 +13,11 @@ public class FuzzyLogicProcessor {
         LinkedHashMap<Double, Double> dlow = new LinkedHashMap<>();
         LinkedHashMap<Double, Double> dhigh = new LinkedHashMap<>();
 
-        System.out.println("Choose fuzzy set file:");
-        System.out.println("Type 1 for sets1.txt");
-        System.out.println("Type 2 for sets2.txt");
+        System.out.println("Please select the fuzzy set file to load:");
+        System.out.println("  1 - Load sets1.txt");
+        System.out.println("  2 - Load sets2.txt");
+        System.out.print("Enter your choice (1 or 2): ");
+
         Scanner scanner = new Scanner(System.in);
         int fileChoice = -1;
         while (fileChoice != 1 && fileChoice != 2) {
