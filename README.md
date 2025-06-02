@@ -51,9 +51,10 @@ The system uses **defuzzification** via:
 
 Example Interaction
 
-Choose fuzzy set file:
-Type 1 for sets1.txt
-Type 2 for sets2.txt
+Please select the fuzzy set file to load:
+  1 - Load sets1.txt
+  2 - Load sets2.txt
+Enter your choice (1 or 2):
 > 1
 
 Enter temperature:
