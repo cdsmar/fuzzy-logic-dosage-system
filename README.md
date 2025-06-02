@@ -27,9 +27,13 @@ Fuzzy sets are read from one of two files, `sets1.txt` or `sets2.txt`. Each file
 - `DLOW` and `DHIGH` (dosage)
 
 Example (from `sets1.txt`):
+
 TLOW = { 0.2/37, 1/37.5, 0.5/38, 0.2/38.5, 0/39, 0/39.5, 0/40 }
+
 THIGH = { 0/37, 0/37.5, 0.2/38, 0.5/38.5, 0.8/39, 1/39.5, 1/40 }
+
 DLOW = { 1/0, 0.8/2, 0.5/5, 0.2/8, 0/10 }
+
 DHIGH = { 0/0, 0.2/2, 0.5/5, 0.8/8, 1/10 }
 
 ---
