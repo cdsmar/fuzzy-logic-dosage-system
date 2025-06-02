@@ -30,7 +30,7 @@ public class FuzzyLogicProcessor {
             }
         }
 
-        String filename = (fileChoice == 1) ? "src/ai/sets1.txt" : "src/ai/sets2.txt";
+        String filename = (fileChoice == 1) ? "sets1.txt" : "sets2.txt";
         File f = new File(filename); 
         if (!f.exists()) {
             System.out.println("File doesn't exist.");
