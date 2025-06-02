@@ -13,7 +13,7 @@ Two methods are available:
 - **PRODUCT method**
 
 # Repository Contents
-fuzzy-logic-dosage
+fuzzy-logic-dosage-system
 - MyDemo.java → Java source code for the fuzzy logic engine
 - sets1.txt → First fuzzy set definitions
 - sets2.txt → Alternative fuzzy sets
